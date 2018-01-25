@@ -117,7 +117,7 @@
     <repositories>
         <repository>
             <id>local-public</id>
-            <url>http://10.6.104.232:8081/nexus/content/groups/public/</url>
+            <url>${repository.maven}/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -135,12 +135,12 @@
         <repository>
             <id>private-nexus-library-releases</id>
             <name>private-nexus-library-releases</name>
-            <url>http://10.6.104.232:8081/nexus/content/repositories/releases/</url>
+            <url>${repository.maven}/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>private-nexus-library-snapshots</id>
             <name>private-nexus-library-snapshots</name>
-            <url>http://10.6.104.232:8081/nexus/content/repositories/snapshots/</url>
+            <url>${repository.maven}/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
