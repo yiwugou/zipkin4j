@@ -8,6 +8,16 @@ import org.slf4j.LoggerFactory;
 
 import zipkin.Span;
 
+/**
+ * 
+ * <pre>
+ * LogSpanCollector
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:22
+ */
 public class LogSpanCollector extends AbstractSpanCollector {
     private static final Logger logger = LoggerFactory.getLogger(LogSpanCollector.class);
 

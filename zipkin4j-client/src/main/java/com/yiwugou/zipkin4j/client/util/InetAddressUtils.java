@@ -6,6 +6,16 @@ import java.net.UnknownHostException;
 import java.nio.ByteBuffer;
 import java.util.Enumeration;
 
+/**
+ * 
+ * <pre>
+ * InetAddressUtils
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:47
+ */
 public class InetAddressUtils {
 
     private static InetAddress localHostLANAddress() throws UnknownHostException {

@@ -5,6 +5,16 @@ import java.io.IOException;
 
 import com.yiwugou.zipkin4j.client.ZipkinClient;
 
+/**
+ * 
+ * <pre>
+ * ZipkinMySQLInterceptorManagementBean
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:19:30
+ */
 public class ZipkinMySQLInterceptorManagementBean implements Closeable {
 
     public ZipkinMySQLInterceptorManagementBean(final ZipkinClient zipkinClinet) {

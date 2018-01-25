@@ -10,6 +10,16 @@ import com.yiwugou.zipkin4j.client.SpanMetrics;
 
 import lombok.Getter;
 
+/**
+ * 
+ * <pre>
+ * HttpSpanCollector
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:17
+ */
 public class HttpSpanCollector extends AbstractSpanCollector {
     @Getter
     private String zipkinHost;

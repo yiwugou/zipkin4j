@@ -5,6 +5,16 @@ import java.util.List;
 
 import zipkin.Span;
 
+/**
+ * 
+ * <pre>
+ * SystemSpanCollector
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:30
+ */
 public class SystemSpanCollector extends AbstractSpanCollector {
 
     @Override

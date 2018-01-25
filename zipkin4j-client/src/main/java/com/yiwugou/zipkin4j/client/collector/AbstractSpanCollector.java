@@ -20,6 +20,16 @@ import zipkin.Codec;
 import zipkin.Span;
 import zipkin.internal.JsonCodec;
 
+/**
+ * 
+ * <pre>
+ * AbstractSpanCollector
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:12
+ */
 public abstract class AbstractSpanCollector implements SpanCollector, Flushable, Closeable {
     private Codec codec = new JsonCodec();
     private final BlockingQueue<Span> PENDING = new LinkedBlockingQueue<>(1000);

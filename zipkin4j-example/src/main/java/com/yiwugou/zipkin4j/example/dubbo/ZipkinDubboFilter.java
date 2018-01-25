@@ -20,6 +20,16 @@ import lombok.Setter;
 import zipkin.Endpoint;
 import zipkin.Span;
 
+/**
+ * 
+ * <pre>
+ * ZipkinDubboFilter
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:19:12
+ */
 @Activate(group = { Constants.PROVIDER, Constants.CONSUMER })
 public class ZipkinDubboFilter implements Filter {
     @Setter

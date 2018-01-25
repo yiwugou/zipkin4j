@@ -2,6 +2,16 @@ package com.yiwugou.zipkin4j.example.util;
 
 import com.alibaba.fastjson.JSONObject;
 
+/**
+ * 
+ * <pre>
+ * CommonUtils
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:20:23
+ */
 public class CommonUtils {
     public static String methodAndArgs(String method, Object... args) {
         StringBuilder sb = new StringBuilder(method + "(");

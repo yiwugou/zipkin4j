@@ -29,6 +29,16 @@ import com.yiwugou.zipkin4j.example.util.CommonUtils;
 import lombok.Setter;
 import zipkin.Endpoint;
 
+/**
+ * 
+ * <pre>
+ * ZipkinMybatisInterceptor
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:19:21
+ */
 @Intercepts(value = {
         @Signature(type = Executor.class, method = "update", args = { MappedStatement.class, Object.class }),
         @Signature(type = Executor.class, method = "query", args = { MappedStatement.class, Object.class,

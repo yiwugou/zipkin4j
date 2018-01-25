@@ -4,6 +4,16 @@ import java.util.Stack;
 
 import zipkin.Span;
 
+/**
+ * 
+ * <pre>
+ * ThreadLocalSpanStore
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:02
+ */
 public class ThreadLocalSpanStore implements SpanStore {
 
     public static ThreadLocal<Stack<Span.Builder>> LOCAL_SPAN = new ThreadLocal<Stack<Span.Builder>>() {

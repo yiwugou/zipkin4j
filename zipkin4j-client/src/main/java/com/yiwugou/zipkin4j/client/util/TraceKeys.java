@@ -1,5 +1,15 @@
 package com.yiwugou.zipkin4j.client.util;
 
+/**
+ * 
+ * <pre>
+ * TraceKeys
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:52
+ */
 public class TraceKeys {
     public static final String CLIENT_SEND = "cs";
     public static final String CLIENT_RECV = "cr";

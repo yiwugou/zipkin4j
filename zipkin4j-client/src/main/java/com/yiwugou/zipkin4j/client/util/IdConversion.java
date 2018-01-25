@@ -1,5 +1,15 @@
 package com.yiwugou.zipkin4j.client.util;
 
+/**
+ * 
+ * <pre>
+ * IdConversion
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:42
+ */
 public class IdConversion {
 
     public static String convertToString(final long id) {

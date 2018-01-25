@@ -12,6 +12,16 @@ import zipkin.BinaryAnnotation;
 import zipkin.Endpoint;
 import zipkin.Span;
 
+/**
+ * 
+ * <pre>
+ * ZipkinClient
+ * </pre>
+ * 
+ * @author zhanxiaoyong@yiwugou.com
+ *
+ * @since 2018年1月25日 下午4:18:06
+ */
 public class ZipkinClient {
     private static final Logger logger = LoggerFactory.getLogger(ZipkinClient.class);
     private SpanCollector spanCollector;
